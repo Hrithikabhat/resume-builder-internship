@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--------------------------------------------------------------->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacker Portfolio</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/23412c6a8d.js"></script>
+    <!--Slick Slider-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="/home.css" />
+</head>
+<!--------------------------------------------------------------->
+
+<body>
+    <!--header-->
+    <!--d.u.ss-->
+    <!--w.-->
+    <header>
+        <div class="heads">
+            <a href="#" class="logo" id="logo"><img style="float: left; margin: 0px 0px 0px 0px; z-index: 100;" src="/resume/asset/logow.gif" height="130px" width="220px" alt="Stacker Portfolio" /></a>
+            <div class="navibar">
+                <a href="/index.html">RESUME</a>
+            </div>
+            <div class="righSide">
+                <div class="btns dayNight">
+                    <ion-icon name="moon-outline"></ion-icon>
+                    <ion-icon name="sunny-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/header-->
+    <!--Main Section -->
+    <main>
+        <!--Slider-->
+        <div class="flex-container">
+            <div class="flex-child">
+                <div class="slider">
+                    <img id="img-1" src="/resume/asset/nn.jpg" alt="Image 1" />
+                    <img id="img-2" src="/resume/asset/bb.jpg" alt="Image 2" />
+                </div>
+                <div class="navigation-button">
+                    <span class="dot active" onclick="changeSlide(0)"></span>
+                    <span class="dot" onclick="changeSlide(1)"></span>
+                </div>
+            </div>
+            <div class="flex-child">
+                <div class="main">
+                    <div class="green">
+                        <video src="/resume/asset/video.mp4" autoplay loop muted type="mp4" height="764px" width="938px"></video>
+                    </div>
+                    <div class="red">
+                        <img src="/resume/asset/mask.jpg" class="mask" height="764px" width="938px" z-index="10">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Slider-->
+        <!--Second Slider-->
+
+        <section class="testimonial text-center">
+            <div class="container">
+                <div class="heading white-heading">
+                    Testimonial
+                </div>
+                <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="testimonial4_slide">
+                                <img src="/resume/asset/m.jpg" class="img-circle img-responsive" />
+                                <p>I retained Stacker Portfolio resume writing services ... and was completely satisfied with the writing services as well as the follow up of everyone involved. I highly recommend their services in order to market yourself
+                                    in a much more effective and professional manner. </p>
+                                <h4>Andre Jacob</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="/resume/asset/l.jpg" class="img-circle img-responsive" />
+                                <p>I was skeptical when looking for a resume-writing service. Stacker Portfolio was quick to respond and had great communication throughout the process. My resume writer listened to feedback and did an amazing job making the
+                                    resume look professional. I am no longer a skeptic! Stacker Portfoliois the place to go. </p>
+                                <h4>James M. </h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="/resume/asset/p.jpg" class="img-circle img-responsive" />
+                                <p>This was an extremely easy process with outstanding results! I would recommend Stacker Portfolio writers to all my friends. </p>
+                                <h4>Ashwin Shekar</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="/resume/asset/t.jpg" class="img-circle img-responsive" />
+                                <p>I was very pleased with my resume. It accurately captured and presented my skills and abilities. I am proud to submit and confident it will bring the result I am looking for. It was completed in a timely manner and my resume
+                                    writer was knowledgeable and encouraged my feedback.</p>
+                                <h4>Julie G.</h4>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <img src="/resume/asset/d.jpg" class="img-circle img-responsive" />
+                                <p>My new resume has given me a competitive edge. I have received numerous call backs in my search for new employment. The resume writer that was assigned to me did an awesome job. I recommend Stacker Portfolio to anyone seeking
+                                    a polished and professional resume. </p>
+                                <h4>Christine</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Second Slider-->
+    </main>
+    <!--/Main Section -->
+    <!--------------------------------------------------------------->
+    <!--Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="kilimanjaro_part m-top-15" margin-left="400px">
+                    <ul class="kilimanjaro_social_links">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> Pinterest</a></li>
+                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/Footer Section -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        let dayNight = document.querySelector('.dayNight')
+        let body = document.querySelector('body')
+        dayNight.onclick = function() {
+            body.classList.toggle('dark')
+            dayNight.classList.toggle('active')
+        }
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/home.js"></script>
+</body>
+<!--------------------------------------------------------------->
+
+</html>
